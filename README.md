@@ -9,4 +9,5 @@ Completed:
 - 2.2
 
 In progress: \*crickets\*
+
 Up next: **speed optimization**, **space optimization**

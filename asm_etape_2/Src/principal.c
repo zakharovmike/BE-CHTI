@@ -1,11 +1,13 @@
 #include "gassp72.h"
 
 int squares(short i);
+int dft_sum(short k);
 
 int main(void)
-{
+{	
 	// **** **** 2.1 **** ****
 	// Test S = cos^2(i) + sin^2*(i) output
+	/*
 	int min = 1999999999;
 	int max = -99;
 	int x;
@@ -13,7 +15,7 @@ int main(void)
 	{
 		x = squares(i);
 		if (x > max)
-		{
+		{	
 			max = x;
 		}
 		if (x < min)
@@ -21,9 +23,14 @@ int main(void)
 			min = x;
 		}
 	}
+	*/
 	// **** **** 2.1 **** ****
-
-	while (1)
+	
+	// **** **** 2.2 **** ****
+		
+	// **** **** 2.2 **** ****
+	
+	while	(1)
 	{
 	}
 }

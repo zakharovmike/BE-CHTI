@@ -401,6 +401,11 @@
               <FileType>2</FileType>
               <FilePath>.\Src\DFT.s</FilePath>
             </File>
+            <File>
+              <FileName>Signal.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\Signal.s</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -822,6 +827,11 @@
               <FileName>DFT.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\DFT.s</FilePath>
+            </File>
+            <File>
+              <FileName>Signal.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\Signal.s</FilePath>
             </File>
           </Files>
         </Group>

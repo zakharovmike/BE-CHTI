@@ -1,5 +1,7 @@
 #include "gassp72.h"
 
+#define N 64
+
 int squares(short i);
 int dft_sum(short k);
 
@@ -27,7 +29,11 @@ int main(void)
 	// **** **** 2.1 **** ****
 	
 	// **** **** 2.2 **** ****
-		
+	int arrM2[N];
+	for (int k = 1; k < N; k++)
+	{
+		arrM2[k] = dft_sum(k);
+	}
 	// **** **** 2.2 **** ****
 	
 	while	(1)

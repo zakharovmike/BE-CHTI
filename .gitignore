@@ -1,0 +1,6 @@
+.DS_Store
+*.lst
+*uvguix.*.xml
+*.scvd
+Obj
+*.pdf

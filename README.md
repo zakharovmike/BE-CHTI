@@ -12,7 +12,6 @@ In progress: **3**
 
 TODO:
 
-* Check that M2TIR is correct (and maybe adjust to slightly lower than 50 mV)
 * Find out how to test properly with GFSSP
 * Add a way to track number of validated hits per frequency
 * Create condition to reset hit_validated

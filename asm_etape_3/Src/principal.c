@@ -1,7 +1,7 @@
 #include "gassp72.h"
 
 #define N 64
-#define M2TIR 0xF079F // Hit threshold @ 50 mV
+#define M2TIR 0xF0B48 // Hit threshold @ 50 mV
 #define HITS_TO_VALIDATE 3
 
 int squares(short i);

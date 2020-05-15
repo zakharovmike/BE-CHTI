@@ -10,6 +10,7 @@ int dft_sum(short k, volatile unsigned short dma_buf[]);
 volatile unsigned short dma_buf[N];
 int frequency_k[6] = {17, 18, 19, 20, 23, 24};
 int hits_per_frequency[6] = {0, 0, 0, 0, 0, 0};
+int scores[6] = {0, 0, 0, 0, 0, 0};
 int hit_validated = 0;
 
 void sys_callback()
@@ -40,6 +41,8 @@ void sys_callback()
 			if (hits_per_frequency[i] == HITS_TO_VALIDATE)
 			{
 				hit_validated = 1;
+				scores[i]++;
+				hits_per_frequency[i] = 0; 	
 			}
 		}
 		else
@@ -86,7 +89,8 @@ int main(void)
 		// Indicate when at least one frequency reaches hit validation level
 		if (hit_validated)
 		{
-			GPIO_Set( GPIOB, 14 );
+			GPIO_Set( GPIOB, 14 ); //need a clean somewhere
+			hit_validated = 0;
 		}
 	}
 }

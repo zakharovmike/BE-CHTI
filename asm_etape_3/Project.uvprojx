@@ -16,7 +16,7 @@
         <TargetCommonOption>
           <Device>STM32F103RB</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32F1xx_DFP.2.3.0</PackID>
+          <PackID>Keil.STM32F1xx_DFP.2.2.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000-0x20004FFF) IROM(0x8000000-0x801FFFF) CLOCK(8000000) CPUTYPE("Cortex-M3")</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -184,7 +184,6 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
-            <RvdsMve>0</RvdsMve>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -402,6 +401,11 @@
               <FileType>2</FileType>
               <FilePath>.\Src\DFT.s</FilePath>
             </File>
+            <File>
+              <FileName>Signal.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\Signal.s</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -422,6 +426,11 @@
               <FileType>4</FileType>
               <FilePath>.\GFSSP72\gfssp72.lib</FilePath>
             </File>
+            <File>
+              <FileName>gassp72.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\GFSSP72\gassp72.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -439,7 +448,7 @@
         <TargetCommonOption>
           <Device>STM32F103RB</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32F1xx_DFP.2.3.0</PackID>
+          <PackID>Keil.STM32F1xx_DFP.2.2.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000-0x20004FFF) IROM(0x8000000-0x801FFFF) CLOCK(8000000) CPUTYPE("Cortex-M3")</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -607,7 +616,6 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
-            <RvdsMve>0</RvdsMve>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -825,6 +833,11 @@
               <FileType>2</FileType>
               <FilePath>.\Src\DFT.s</FilePath>
             </File>
+            <File>
+              <FileName>Signal.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\Signal.s</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -844,6 +857,11 @@
               <FileName>gfssp72.lib</FileName>
               <FileType>4</FileType>
               <FilePath>.\GFSSP72\gfssp72.lib</FilePath>
+            </File>
+            <File>
+              <FileName>gassp72.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\GFSSP72\gassp72.h</FilePath>
             </File>
           </Files>
         </Group>

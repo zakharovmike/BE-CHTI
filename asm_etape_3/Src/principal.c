@@ -2,7 +2,7 @@
 
 #define N 64
 #define M2TIR 0xF0B48 // Hit threshold @ 50 mV
-#define HITS_TO_VALIDATE 3
+#define HITS_TO_VALIDATE 12
 
 int squares(short i);
 int dft_sum(short k, volatile unsigned short dma_buf[]);
@@ -11,6 +11,7 @@ volatile unsigned short dma_buf[N];
 int frequency_k[6] = {17, 18, 19, 20, 23, 24};
 int hits_per_frequency[6] = {0, 0, 0, 0, 0, 0};
 int hit_validated = 0;
+int score[6] = {0, 0, 0, 0, 0, 0};
 
 void sys_callback()
 {
@@ -40,6 +41,7 @@ void sys_callback()
 			if (hits_per_frequency[i] == HITS_TO_VALIDATE)
 			{
 				hit_validated = 1;
+				score[i]++;
 			}
 		}
 		else
@@ -83,10 +85,12 @@ int main(void)
 	
 	while	(1)
 	{
-		// Indicate when at least one frequency reaches hit validation level
+		// Blink LED when one frequency has a validated hit
 		if (hit_validated)
 		{
 			GPIO_Set( GPIOB, 14 );
+			hit_validated = 0;
+			GPIO_Clear( GPIOB, 14);
 		}
 	}
 }

@@ -13,8 +13,5 @@ In progress: **3**
 TODO:
 
 * Find out how to test properly with GFSSP
-* Add a way to track number of validated hits per frequency
-* Create condition to reset hit_validated
-* Figure out what happens to hits_per_frequency when a hit is validated
 
-Up next: speed optimization, space optimization
+Up next:

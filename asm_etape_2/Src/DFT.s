@@ -11,6 +11,7 @@ dft_sum	proc
 	push	{r5}
 	push	{r6}
 	; value of k in r0
+	; address of TabSig in r1
 	
 	; calculate Re(k)
 	ldr	r2, =TabCos

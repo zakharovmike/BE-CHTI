@@ -30,7 +30,7 @@ int main(void)
 	
 	// **** **** 2.2 **** ****
 	int arrM2[N];
-	for (int k = 1; k < N; k++)
+	for (int k = 0; k < N; k++)
 	{
 		arrM2[k] = dft_sum(k);
 	}

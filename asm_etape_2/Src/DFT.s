@@ -3,7 +3,6 @@
 	area moncode, code, readonly
 	import TabCos
 	import TabSin
-	import TabSig
 	export dft_sum
 		
 dft_sum	proc
@@ -12,8 +11,6 @@ dft_sum	proc
 	push	{r5}
 	push	{r6}
 	; value of k in r0
-	
-	ldr	r1, =TabSig
 	
 	; calculate Re(k)
 	ldr	r2, =TabCos

@@ -6,12 +6,11 @@ Completed:
 
 - Objective 1
 - Objective 2
+- Objective 3
 
-In progress: **Objective 3**
+In progress: **Objective 4**
 
 TODO:
-- Complete `sound.s` by:
-    - Retrieving sound information
-    - Processing as required (offset and scale)
-    - Outputing to TIM3_CCR3
-    - Repeating until the end of the sound
+- Create short version of sound (to avoid overlap between hits)
+- Figure out how to manage several sounds (one per frequency), allowing for overlap
+- Integrate sound emission together with hit detection

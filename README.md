@@ -4,14 +4,7 @@
 
 Completed:
 
-- 1.1
-- 2.1
-- 2.2
+- Objective 1
+- Objective 2
 
-In progress: **3**
-
-TODO:
-
-* Find out how to test properly with GFSSP
-
-Up next:
+In progress: **Objective 3**

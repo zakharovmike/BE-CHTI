@@ -2,7 +2,7 @@
 
 #### Anna Wadsten & Mikhail Zakharov
 
-## Objectif 3 : Projet final
+## Objectif 4 : Projet final
 
 ### Comment vérifier les résultats :
 
@@ -18,7 +18,7 @@
 1. Ajouter des nouveaux signaux nommés `hits_per_frequency[i]` ou le `i` est remplacé par `0`, `1`, `2`, `3`, `4`, `5`
 1. Pour chaque signal, ajuster le **Display Range** à `Min: 0` et `Max: 30`
 1. Ajouter un nouveau signal avec le nom `TIM3_CCR3`
-1. Ajuster le Display Range de `TIM3_CCR3` à `Min: 0` et `Max: 0x666` et fermer cette fenêtre
+1. Ajuster le **Display Range** de `TIM3_CCR3` à `Min: 0` et `Max: 0x666` et fermer cette fenêtre
 1. Ouvrir la fenêtre **Watch 1** (en cliquant sur View > Watch Windows > Watch 1)
 1. Ajouter la variable `score` dans **Watch 1**
 1. Cliquer sur **+** du variable **score** pour voir le tableau en entier

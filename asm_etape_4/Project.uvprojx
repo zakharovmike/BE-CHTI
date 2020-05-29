@@ -338,7 +338,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>STM32F103xB,USE_FULL_LL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>.\GASSP72;.\Etat</IncludePath>
+              <IncludePath>.\Etat;.\GFSSP72</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -397,6 +397,16 @@
               <FileType>2</FileType>
               <FilePath>.\Src\sound.s</FilePath>
             </File>
+            <File>
+              <FileName>DFT.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\DFT.s</FilePath>
+            </File>
+            <File>
+              <FileName>TabSinCos.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\TabSinCos.s</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -413,9 +423,14 @@
           <GroupName>Drivers</GroupName>
           <Files>
             <File>
-              <FileName>gassp72.lib</FileName>
+              <FileName>gassp72.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\GFSSP72\gassp72.h</FilePath>
+            </File>
+            <File>
+              <FileName>gfssp72.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>.\GASSP72\gassp72.lib</FilePath>
+              <FilePath>.\GFSSP72\gfssp72.lib</FilePath>
             </File>
           </Files>
         </Group>
@@ -830,6 +845,16 @@
               <FileType>2</FileType>
               <FilePath>.\Src\sound.s</FilePath>
             </File>
+            <File>
+              <FileName>DFT.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\DFT.s</FilePath>
+            </File>
+            <File>
+              <FileName>TabSinCos.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\Src\TabSinCos.s</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -846,9 +871,14 @@
           <GroupName>Drivers</GroupName>
           <Files>
             <File>
-              <FileName>gassp72.lib</FileName>
+              <FileName>gassp72.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\GFSSP72\gassp72.h</FilePath>
+            </File>
+            <File>
+              <FileName>gfssp72.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>.\GASSP72\gassp72.lib</FilePath>
+              <FilePath>.\GFSSP72\gfssp72.lib</FilePath>
             </File>
           </Files>
         </Group>

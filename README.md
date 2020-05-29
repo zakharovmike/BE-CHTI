@@ -7,10 +7,9 @@ Completed:
 - Objective 1
 - Objective 2
 - Objective 3
+- Objective 4 (single sound)
 
-In progress: **Objective 4**
+In progress: **Objective 4 (multiple sounds)**
 
 TODO:
-- Create short version of sound (to avoid overlap between hits)
 - Figure out how to manage several sounds (one per frequency), allowing for overlap
-- Integrate sound emission together with hit detection

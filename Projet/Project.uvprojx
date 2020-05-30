@@ -16,7 +16,7 @@
         <TargetCommonOption>
           <Device>STM32F103RB</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32F1xx_DFP.2.2.0</PackID>
+          <PackID>Keil.STM32F1xx_DFP.2.3.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000-0x20004FFF) IROM(0x8000000-0x801FFFF) CLOCK(8000000) CPUTYPE("Cortex-M3")</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -184,6 +184,7 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
+            <RvdsMve>0</RvdsMve>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -392,11 +393,6 @@
               <FilePath>.\Src\TabSinCos.s</FilePath>
             </File>
             <File>
-              <FileName>Carre.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\Carre.s</FilePath>
-            </File>
-            <File>
               <FileName>DFT.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\DFT.s</FilePath>
@@ -448,7 +444,7 @@
         <TargetCommonOption>
           <Device>STM32F103RB</Device>
           <Vendor>STMicroelectronics</Vendor>
-          <PackID>Keil.STM32F1xx_DFP.2.2.0</PackID>
+          <PackID>Keil.STM32F1xx_DFP.2.3.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
           <Cpu>IRAM(0x20000000-0x20004FFF) IROM(0x8000000-0x801FFFF) CLOCK(8000000) CPUTYPE("Cortex-M3")</Cpu>
           <FlashUtilSpec></FlashUtilSpec>
@@ -616,6 +612,7 @@
             <hadXRAM>0</hadXRAM>
             <uocXRam>0</uocXRam>
             <RvdsVP>0</RvdsVP>
+            <RvdsMve>0</RvdsMve>
             <hadIRAM2>0</hadIRAM2>
             <hadIROM2>0</hadIROM2>
             <StupSel>8</StupSel>
@@ -822,11 +819,6 @@
               <FileName>TabSinCos.s</FileName>
               <FileType>2</FileType>
               <FilePath>.\Src\TabSinCos.s</FilePath>
-            </File>
-            <File>
-              <FileName>Carre.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>.\Src\Carre.s</FilePath>
             </File>
             <File>
               <FileName>DFT.s</FileName>
